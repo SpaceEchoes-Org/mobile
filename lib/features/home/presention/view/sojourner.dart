@@ -60,7 +60,7 @@ class OpportunityScreen extends StatelessWidget {
                         style: TextStyle(color: Color(0xFF2A2448), fontWeight: FontWeight.w600)),
                   ),
                   const SizedBox(height: 14),
-                  const Text('My link to Earth, was lost',
+                  const Text('My link to Earth, was lost.\nWant to watch? Please copy this link\nhttps://drive.google.com/drive/folders/1_i8hWZglRBEMn_-4dV5AQq3_G9XVoiFL',
                       style: TextStyle(color: Colors.white60, fontSize: 15, height: 1.5)),
                 ]),
               

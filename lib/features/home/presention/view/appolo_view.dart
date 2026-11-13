@@ -59,7 +59,7 @@ class EagleScreen extends StatelessWidget {
                         style: TextStyle(color: Color(0xFF2A2448), fontWeight: FontWeight.w600)),
                   ),
                   const SizedBox(height: 14),
-                  const Text('My lower half stayed on the Moon and served as a launch pad for my upper half.',
+                  const Text('My lower half stayed on the Moon and served as a launch pad for my upper half.\nWant to watch? Please copy this link\nhttps://drive.google.com/drive/folders/12sT_asuJbr1-zelqyBjUPeVW6-4HXAtj',
                       style: TextStyle(color: Colors.white60, fontSize: 15, height: 1.5)),
                 ]),
               
