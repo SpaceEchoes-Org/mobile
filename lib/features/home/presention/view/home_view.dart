@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:mobile/core/helper/mynavigator.dart';
+import 'package:mobile/features/home/presention/view/marshome.dart';
+import 'package:mobile/features/home/presention/view/moonhome.dart';
 import '../../../../core/utils/app_assets.dart';
 import '../../../../core/utils/app_colors.dart';
 import '../widget/container.dart';
@@ -63,14 +66,18 @@ class HomeView extends StatelessWidget {
                   title: 'The Moon',
                   description: 'Explore the missions that changed our understanding\nof the Moon.',
                   imagePath: AppImages.homemoon,
-                  onExplorePressed: () {},
+                  onExplorePressed: () {
+                    MyNavigator.goTo(context, toPage: const MoonScreen(), type: NavigatorType.push);  
+                  },
                 ),
                 const SizedBox(height: 24),
                 HomeContainer(
                   title: 'Mars',
                   description: 'Discover the robotic\nexplorers searching for clues\nabout the Red Planet.',
                   imagePath: AppImages.homemars,
-                  onExplorePressed: () {},
+                  onExplorePressed: () {
+                    MyNavigator.goTo(context, toPage: const MarshomeScreen(), type: NavigatorType.push);  
+                  },
                 ),
                 const SizedBox(height: 24),
                 HomeContainer(

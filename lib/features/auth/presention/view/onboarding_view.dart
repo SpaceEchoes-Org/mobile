@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:mobile/features/auth/presention/view/login_view.dart';
 import '../../../../core/helper/mynavigator.dart';
 import '../../../../core/utils/app_assets.dart';
 import '../../../../core/utils/app_colors.dart';
@@ -85,7 +86,7 @@ class OnboardingView extends StatelessWidget {
                   ),
                   child: ElevatedButton(
                     onPressed: () {
-                      MyNavigator.goTo(context, toPage: MainView(), type: NavigatorType.pushAndRemoveUntil);
+                      MyNavigator.goTo(context, toPage: LoginScreen(), );
                     },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.transparent,
