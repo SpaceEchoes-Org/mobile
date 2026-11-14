@@ -25,8 +25,6 @@ NASA machines have been left across the Moon, Mars, and deep space. Some complet
 ---
 
 
-**Data flow:** `View → UseCase → Repo (abstract) → RepoImpl → DataSource`
-
 ### Project structure
 
 ```
